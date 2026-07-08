@@ -1,0 +1,101 @@
+//i defined some modules here that arent in the actual bar. but pls feel free to add them yourself
+{
+"layer": "top",
+"position": "top",
+"margin-top": 5,
+"margin-bottom": 5,
+"margin-left": 0,
+"margin-right": 0,
+"passthrough": true,
+"reload_style_on_change": true,
+"width": 1910,
+"height": 20,
+	
+"modules-left": [
+	"hyprland/workspaces"
+	
+],
+
+"modules-center": [
+	
+	"mpris"
+],
+		
+"modules-right": [
+	"network#net",
+	"cpu",
+	"memory",
+	"pulseaudio",
+	"clock"
+],
+	
+
+"hyprland/workspaces": {
+
+	"active-only": false
+
+},
+
+	
+"clock": {
+	"format": "{:%I:%M:%S | %d/%m/%y}",
+	"interval": 1
+},
+
+
+"clock#date": {
+	"format": "{:%d/%m/%y}"
+},
+
+"pulseaudio": {
+    "format": "VOL:{volume}%",
+    "format-muted": "VOL:MUT",
+    "format-source": "VOL:{volume}%"
+},
+
+"battery": {
+
+	"format": "BAT:{capacity}%"
+
+},
+
+
+"cpu": {
+	"format": "CPU:{usage}%",
+	"interval": 1
+},
+
+"network#net": {
+	"interval": 1,
+	"format": "NET:{bandwidthTotalBytes}",
+	"format-disconnected": "Net:N/A"
+},
+
+"network#sig": {
+	"interval": 1,
+	"format": "SIG:{signalStrength}",
+	"format-disconnected": "Net:N/A"
+},
+
+
+
+"backlight": {
+	"interval": 1,
+	"format": "BRI:{percent}%"
+},
+
+"memory": {
+	"format": "RAM:{percentage}%",
+	"interval": 1
+},
+
+"mpris": {
+	"interval": 1,
+	"format": "{title} {position}/{length}"
+},
+
+"custom/space": {
+	"format": " "
+}
+
+}

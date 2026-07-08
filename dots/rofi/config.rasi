@@ -1,0 +1,6 @@
+
+@theme "/home/ameen/.config/rofi/darkBlu.rasi"
+
+configuration {
+	font: "ElectroHarmonix 12";
+}

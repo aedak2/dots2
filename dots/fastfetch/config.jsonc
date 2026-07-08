@@ -1,0 +1,52 @@
+{
+	"logo": {
+		"type": "small", 
+		"padding": {
+			"top": 0,
+			"left": 0,
+			"right": 2
+		}
+	},
+
+	"modules": [
+
+		{
+			"type": "os",
+			"format": "{name}",
+			"key": "OS "
+		},
+
+		{
+			"type": "uptime",
+			"key": "UPT"
+		},
+
+		{
+			"type": "wm",
+			"key": "WM ",
+			"format": "{process-name}"
+		},
+		
+		{
+			"type": "cpu",
+			"format": "{name}"
+		},
+
+		{
+			"type": "gpu",
+			"format": "{vendor} {name}"
+		},
+		
+		{
+			"type": "memory",
+			"key": "MEM",
+			"format": "{used}/{total}"
+		},
+		
+		{
+			"type": "disk",
+			"key": "SSD",
+			"format": "{size-used}/{size-total}"
+		}
+	]
+}
