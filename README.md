@@ -3,3 +3,5 @@ if youre wondering what happened to dots 1: i didnt upload my first dots, and pr
 do what you want with them, i dont really care.
 thats basically what the license says as well.
 youll just have to make one change in hyprland.lua, where you replace USER with your actual username, and thats it.
+
+oh yeah, and youll need to move the font to /usr/share/fonts/ttf, or somewhere. and jetbrains mono as well, youll need
